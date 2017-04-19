@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  navOpen:Boolean = true;
+  toggleNav(data){
+    this.navOpen = !(this.navOpen);
+  }
 }

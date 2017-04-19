@@ -30,7 +30,8 @@ export class SidebarComponent implements OnInit {
 
    }
    slideMenu(e){
-    
+    //(e.target.parentNode.classList.value == 'active')?e.target.parentNode.classList.remove('active'):e.target.parentNode.classList.add('active');
+
    }
   ngOnInit() {
   }
